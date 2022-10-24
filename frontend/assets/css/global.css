@@ -6,7 +6,7 @@
     --text-color-bold: #231f20;
     --light: #fff;
     --red: #d02020;
-    --link-color: #006bb4;
+  
     --gray: #999;
 }
 
@@ -56,10 +56,13 @@ body {
 input, button {
     outline: none;
     border: none;
+    font-family: var(--font-family);
 }
 
 button {
     cursor: pointer;
+    background-color: #fff;
+    height: auto;
 }
 
 ul {
