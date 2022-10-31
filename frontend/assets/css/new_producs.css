@@ -1,0 +1,270 @@
+/* NEW PRODUCTS */
+
+#new-pro {
+    display: block;
+    flex-wrap: wrap;
+}
+.title h3{
+    font-size: 26px;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    line-height: 1.1;
+    margin-bottom: 40px;
+    font-family: var(--font-family);
+    text-transform: uppercase;
+
+}
+.products {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.all:hover .view {
+    display: block;
+}
+.products .pro {
+    display: block;
+    position: relative;
+}
+.products .img-wrapper {
+    position: relative;
+}
+.pro img {
+    width: 224px;
+    height: 280px;
+}
+.products .pro .character {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 46px;
+    border: 1px solid #d02020;
+    border-radius: 50%;
+    background: #d02020;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 0;
+    z-index: 99;
+}
+.des {
+    display: block;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+.description a {
+    text-align: left;
+    line-height: 22px;
+    text-transform: none;
+    font-size: 14px;
+    color: #333;
+    font-family: var(--font-family);
+}
+.description a:hover {
+    text-decoration: underline;
+}
+.price-box {
+    text-align: left;
+    white-space: nowrap;
+    margin: 10px 0 25px;
+}
+.price {
+    color: #231f20;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 12px;
+}
+.old-price {
+    text-decoration: line-through;
+}
+.view {
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: 27px;
+    left: 0;
+    text-align: center;
+    font-size: 13px;
+    z-index: 3;
+}
+.view a {
+    display: inline-block;
+    background-color: #231f20;
+    padding: 10px 35px;
+    color: #fff;
+    text-transform: uppercase;
+    opacity: .7;
+}
+.view a:hover {
+    text-decoration: underline;
+}
+
+/* BANNER */
+.item {
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+#banner .img-wrapper {
+    display: block;
+    position: relative;
+}
+#banner .img-wrapper .flip .front {
+   padding-top: 125%;
+   left: 0;
+   top: 0;
+   opacity: 1;
+}
+#banner .img-wrapper .flip .back {
+    padding-bottom: 125%;
+    height: 560px;
+    width: 224px;
+    top: 0px;
+    left: 0px;
+    display: none;
+    position: absolute;
+}
+#banner .img-wrapper .flip:hover .back {
+    opacity: 1;
+    display: block;
+}
+.title-end {
+    padding-bottom: 60px;
+    padding-top: 50px;
+}
+
+/* HEADER NOTICE */
+
+.notice {
+    padding: 0 10px;
+    background-color: #333f48;
+    border-top: 0 solid #333f48;
+    text-align: center;
+    color: #fff;
+    max-height: 40px;
+}
+.slide-item {
+    display: block;
+    position: relative;
+    height: 40px;
+    border: 1px solid transparent;
+}
+.slide-item .note {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-item .note a {
+    color: #fff;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+/* BACKGROUND AND THUMD */
+
+.bk-big {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.list-sex {
+    display: flex;
+    margin-bottom: 40px;
+}
+.list-sex .row {
+   margin: 0 auto;
+}
+.list-sex .row .element:nth-child(2) {
+    margin: 0 8px;
+}
+.list-sex .row .element {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.list-sex .element-people {
+    position: relative;
+    text-align: center;
+}
+.list-sex .element-people a {
+    text-decoration: none;
+}
+.list-sex .element-people img {     
+    max-width: 100%;
+    border: 0;
+    /* width: 600px;
+    height: 675px; */
+}
+.banner-color {
+    position: absolute;
+    background: #787878;
+    bottom: 5px;
+    width: 100%;
+    padding: 10px;
+    opacity: .4;
+    min-height: 97px;
+}
+.list-sex .element-people .select {
+    position: absolute;
+    bottom: 5px;
+    padding: 10px;
+    background: 0 0;
+    width: 100%;
+}
+.list-sex .element-people .select span {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.list-sex .element-people .select a {
+    display: inline-block;
+    height: 32px;
+    width: 110px;
+    text-align: center;
+    line-height: 32px;
+    text-transform: uppercase;
+    transition: .3s;
+    margin-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+
+}
+.list-sex .element-people .select a:hover {
+    background-color: #231f20;
+    color: #fff;
+    border: none;
+}
+
+/* TITLE */
+.first-title {
+    margin-bottom: 35px;
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.first-title h3 {
+    font-size: 48px;
+    font-weight: 900;
+}
+.second-title {
+    font-size: 25px;
+    font-weight: 400;
+    max-width: 550px;
+    margin: 0 auto 100px;   
+    text-align: center;
+} 
+
+/* DESCRIPTION */
+.cos {
+    display: flex;
+    margin-bottom: 40px;     
+}
