@@ -6,8 +6,9 @@
     --text-color-bold: #231f20;
     --light: #fff;
     --red: #d02020;
-    --link-color: #006bb4;
     --gray: #999;
+
+    --header-height: 76px;
 }
 
 * {
@@ -26,40 +27,44 @@ body {
     color: var(--text-color);
     font-family: var(--font-family);
     font-style: normal;
+    font-size: 14px;
     font-weight: 400;
     line-height: 1.42857143;
-    font-size: 14px;
 }
 
- /* Fonts emmbeded  */
+/* Fonts emmbeded  */
 @font-face {
-    font-family: "futura";
+    font-family: 'futura';
     src: url('../font/futura-vh/SFUFuturaLight.TTF');
     font-weight: 300;
 }
 @font-face {
-    font-family: "futura";
+    font-family: 'futura';
     src: url('../font/futura-vh/SFUFuturaRegular.TTF');
     font-weight: 400;
 }
 @font-face {
-    font-family: "futura";
+    font-family: 'futura';
     src: url('../font/futura-vh/SFUFuturaHeavy.TTF');
     font-weight: 600;
 }
 @font-face {
-    font-family: "futura";
+    font-family: 'futura';
     src: url('../font/futura-vh/SFUFuturaBold.TTF');
     font-weight: 700;
 }
 
-input, button {
+input,
+button {
     outline: none;
     border: none;
+    font-family: var(--font-family);
 }
 
 button {
     cursor: pointer;
+    background-color: #fff;
+    height: auto;
 }
 
 ul {
@@ -80,6 +85,10 @@ a {
 .container {
     width: 1350px;
     max-width: 100%;
-    padding: 8px 15px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.wrapper {
     margin: 0 auto;
 }
