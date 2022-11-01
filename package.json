@@ -1,6 +1,6 @@
 {
     "lint-staged": {
-        "**/*.{html,css}": [
+        "src/**/*.{html,css}": [
             "prettier --write"
         ]
     },
