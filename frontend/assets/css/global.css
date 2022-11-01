@@ -76,3 +76,10 @@ a {
     color: var(--link-color);
     text-decoration: none;
 }
+
+.container {
+    width: 1350px;
+    max-width: 100%;
+    padding: 8px 15px;
+    margin: 0 auto;
+}
