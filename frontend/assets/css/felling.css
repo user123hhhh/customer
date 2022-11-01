@@ -1,0 +1,39 @@
+.felling{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+}
+
+.photo {
+    width: 48%;
+    margin: 0 15px;
+    position: relative;
+    
+}
+
+.photo-content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 25px 30px;
+    background-image: linear-gradient(to top,rgba(0,0,0,.75) 0%,rgba(0,0,0,0) 100%);
+    color: #fff;
+    letter-spacing: .007rem;
+
+}
+
+.photo-content h4{
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.photo-content p{
+    font-size: 15px;
+}
+
+
+.photo .tencel{
+}
+.photo .usa{
+}

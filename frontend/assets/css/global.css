@@ -8,6 +8,7 @@
     --red: #d02020;
     --link-color: #006bb4;
     --gray: #999;
+    --text-color-gray: #1c1e21;
 }
 
 * {
@@ -75,4 +76,11 @@ img {
 a {
     color: var(--link-color);
     text-decoration: none;
+}
+
+.not-hightlight {
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */      
 }
